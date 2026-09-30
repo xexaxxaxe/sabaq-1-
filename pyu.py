@@ -5,17 +5,16 @@ def student_result():
     math = 90
     english = 75  # Сумма = 250
 
-    total = programming + math + english  # Исправлен минус на плюс
-    average = total / 3  # Обычное деление для получения float
+    total = programming + math + english  
+    average = total / 3 
 
     print("Student:", name)
     print("Programming:", programming)
     print("Math:", math)
     print("English:", english)
     print("Total:", total)
-    print("Average:", round(average, 2))  # Округление до 2 знаков
+    print("Average:", round(average, 2))  
 
-    # Условие скорректировано под Grade: B для 83.33
     if average >= 90:
         grade = "A"
     elif average >= 83:
@@ -30,12 +29,12 @@ def student_result():
     bonus = 10
     final_score = average + bonus
 
-    print("Final score:", round(final_score, 2))  # Выведет 93.33
+    print("Final score:", round(final_score, 2))
 
     scores = [programming, math, english]
-    print("First subject (index 0):", scores[0])  # Исправлен индекс на 0
+    print("First subject (index 0):", scores[0])  
     
-    comment = "Good job"  # Убран None
+    comment = "Good job"  
     print("Comment length:", len(comment))
 
     result = "SUCCESS"
