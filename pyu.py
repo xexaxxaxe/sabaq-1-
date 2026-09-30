@@ -3,7 +3,7 @@ def student_result():
 
     programming = 85
     math = 90
-    english = 75  # Сумма = 250
+    english = 75  
 
     total = programming + math + english  
     average = total / 3 
